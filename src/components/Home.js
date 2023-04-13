@@ -1,7 +1,8 @@
 import React from "react";
 import { Button } from "react-bootstrap";
-import { useNavigate } from "react-router";
 import { useUserAuth } from "../context/UserAuthContext";
+import { useNavigate } from "react-router";
+
 
 const Home = () => {
   const { logOut, user } = useUserAuth();
